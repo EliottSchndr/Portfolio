@@ -1,0 +1,168 @@
+:root{
+    --bg-color:#1f242d;
+    --second-bg-color:#2a303c;
+    --text-color:#fff;
+    --main-color:#97af78e8;
+}
+
+#web,
+#biosphere,
+#Odomo{
+    background: var(--bg-color);
+}
+
+#sql,
+#VM,
+#rapport{
+    background: var(--second-bg-color);
+}
+
+.web-layout{
+    display: flex;
+    flex-direction: column;
+}
+.web-content{
+    display: flex;
+    text-align: center;
+    margin-top: 15rem;
+}
+
+.web-layout{
+    display: flex;
+    flex-direction: column;
+}
+.web-content{
+    display: flex;
+    text-align: center;
+    margin-top: 15rem;
+}
+
+.sql-layout{
+    display: flex;
+    flex-direction: column;
+}
+.sql-content{
+    display: flex;
+    text-align: center;
+    margin-top: 15rem;
+}
+
+.biosphere-layout{
+    display: flex;
+    flex-direction: column;
+}
+
+.biosphere-content{
+    display: flex;
+    text-align: center;
+    margin-top: 15rem;
+}
+
+.Odomo-layout{
+    display: flex;
+    flex-direction: column;
+}
+.Odomo-content{
+    display: flex;
+    text-align: center;
+    margin-top: 15rem;
+}
+
+.VM-layout{
+    display: flex;
+    flex-direction: column;
+}
+.VM-content{
+    display: flex;
+    text-align: center;
+    margin-top: 15rem;
+}
+
+.rapport-layout{
+    display: flex;
+    flex-direction: column;
+}
+.rapport-content{
+    display: flex;
+    text-align: center;
+    margin-top: 15rem;
+}
+
+.apport{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2{
+    font-size: 3.5rem;
+}
+
+p{
+    font-size:1.6rem;
+    margin: 2rem 0 3rem;
+}
+
+.apport .acquis ul{
+    font-size: 1.6rem;
+}
+
+.apport .acquis ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+img{
+    width: 60rem;
+    margin: 2rem;
+}
+
+.img1{
+    z-index: 0;
+
+}
+
+.menu-hamburger{
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 35px;
+}
+
+@media(max-width:830px){
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav{
+        top:0;
+        position : fixed;
+        background-color: #e2d7d0ce;
+        backdrop-filter: blur(5px);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        margin-left: -200%;
+        transition: all 0.5s ease;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;     
+        text-align: center;
+    }
+
+    nav.mobile-menu{
+        margin-left: 0%;
+    }
+    
+    .menu-hamburger{
+        position: relative;
+        display: inline-block;
+        top : 50%;
+        right: inherit;
+    }
+}

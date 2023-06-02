@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schneider Eliott</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Eliott Schneider</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Accueil</a>
+            <a href="#about">A Propos</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <img src="image/menuBurger.png" alt="menuBurger" class="menu-hamburger">
+    </header>
+
+<!-- Home section-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h2>Hello,</h2>
+            <h1>Je suis Eliott Schneider</h1>
+            <h2>Et j'apprends <span class="multiple-text"> </span></h2>
+            <p>
+                J'ai 19 ans, je suis en première année au BUT informatique à Bordeaux.<br>
+                Lors de cette année nous avons réaliser plusieurs projets que je vais vous présentez.
+            </p>
+        </div>
+        <div class="home-img">
+            <div class="cercle"></div>
+            <img src="image/moi.png" alt=""> <!-- la faute est ici ! Place une img de toi.-->
+        </div>
+    </section>
+
+<!-- About section-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <div class="cercle"></div>
+            <img src="image/moi.png" alt=""> <!-- la faute est ici ! Place une img de toi.-->
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">A Propos de <span>Moi</span></h2>
+            <h3>Etudiant à l'Université de Bordeaux</h3>
+            <p>Je suis une personne souriante, j'aime apprendre.<br>
+                 Je suis sportif j'ai besoin de voir mes amis et être avec ma famille pour me sentir bien dans ma vie.
+            </p>
+            <a href="image/Schneider-Eliott-CV.pdf" class="btn">Read more</a>
+        </div>
+
+    </section>
+
+<!-- Experience section-->
+    <section class="experience" id="experience">
+        <h2 class="heading">Projets <span> Réalisés</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="image/siteWeb_Presentation.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Création site web</h4>
+                    <p>Lors de ce projet, nous avons du réalisé un site web.</p>
+
+                    <a href="Experience.html#web"><img src="image/external-link.png" alt=""></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="image/baseDonnee_Presentation.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Création base de donnée</h4>
+                    <p>Dans ce projet, en duo, nous avons crée une base de donnée.</p>
+
+                    <a href="Experience.html#sql"><img src="image/external-link.png" alt=""></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="image/BiosphereGameplay.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Création de l'IA</h4>
+                    <p>Dans la réalisation du projet nous avions deux parties réaliser pour creer une intelligence artificiel.</p>
+
+                    <a href="Experience.html#biosphere"><img src="image/external-link.png" alt=""></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="image/vm_presentation.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Création de la VM</h4>
+                    <p>Nous avons du faire une machine virtuelle comportant un administrateur ainsi que deux utilisateurs.</p>
+                    <a href="Experience.html#VM"><img src="image/external-link.png" alt=""></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="image/Odomo_Presentation.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Station météorologique</h4>
+                    <p>La station est un projet. Ou nous avons utilisé java. Cette réalisation nous permettait de faire une station controllable à distance.</p>
+                    <a href="Experience.html#Odomo"><img src="image/external-link.png" alt=""></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="image/rapport_Presentation.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Analyse d'une entreprise</h4>
+                    <p>Nous devions choisir une entreprise afin de réaliser un rapport d'analyse.</p>
+                    <a href="Experience.html#rapport"><img src="image/external-link.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section-->
+    <section class="contact" id="contact">
+        <h2 class="heading"> Contact <span> Moi</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer>
+        <div class="social-media">
+            <a href="#"><img src="image/github.png" alt=""></a>
+            <a href="#"><img src="image/instagram.png" alt=""></a>
+            <a href="#"><img src="  image/linkedin.png" alt=""></a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        /* typed js */
+        const typed = new Typed('.multiple-text', {
+        strings: ['le Java', 'le C#', "le SQL", 'le Python', "l'Assembleur", "l'HTML/CSS"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true
+        });
+    </script>
+    
+    <script>
+    /* Menu Burger */
+        const menuHamburger = document.querySelector(".menu-hamburger")
+        const navLinks = document.querySelector("nav")
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        });
+    </script>
+    <script src="../js/script.js"></script>
+    
+</body>
+
+</html>
