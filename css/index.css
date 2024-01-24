@@ -166,8 +166,7 @@ span{
     margin: 2rem 0 3rem;
 }
 
-.about,
-.contact{
+.about{
     background: var(--second-bg-color);
 }
 
@@ -246,6 +245,10 @@ span{
     width: 3rem;
 }
 
+.contact {
+    background: var(--bg-color);
+}
+
 .contact h2{
     margin-bottom: 3rem;
 }
@@ -269,7 +272,7 @@ span{
     padding: 1.5rem;
     font-size: 1.6rem;
     color: var(--text-color);
-    background: var(--bg-color);
+    background: var(--second-bg-color);
     border-radius: .8rem;
     margin: .7rem 0;
 }
@@ -310,6 +313,10 @@ footer .social-media img{
     top: 50px;
     right: 50px;
     width: 35px;
+}
+
+.professionnel{
+    background: var(--second-bg-color);
 }
 
 @media(max-width:1200px){

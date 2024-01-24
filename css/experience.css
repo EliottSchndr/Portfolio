@@ -13,7 +13,8 @@
 
 #sql,
 #VM,
-#rapport{
+#rapport,
+#appVisualisation{
     background: var(--second-bg-color);
 }
 
